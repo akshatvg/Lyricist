@@ -1,5 +1,5 @@
 // Defaults
-var agoraAppId = "a6af85f840ef43108491705e2315a857";
+var agoraAppId = $('#form-appid').val();
 var channelName = $('#form-channel').val();
 var cameraVideoProfile = '480p_4';
 var screenVideoProfile = '480p_2';

@@ -1,6 +1,6 @@
 // Join Channel Modal
 $("#join-channel").click(function (event) {
-    var agoraAppId = "a6af85f840ef43108491705e2315a857";
+    var agoraAppId = $('#form-appid').val();
     var channelName = $('#form-channel').val();
     initClientAndJoinChannel(agoraAppId, channelName);
     $("#modalForm").modal("hide");

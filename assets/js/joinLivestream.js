@@ -3,7 +3,7 @@ var client = AgoraRTC.createClient({ mode: 'live', codec: 'vp8' });
 
 // Join Channel Modal
 $("#watch-live-btn").click(function (event) {
-  var agoraAppId = "a6af85f840ef43108491705e2315a857";
+  var agoraAppId = $('#form-appid').val();
   var channelName = $('#form-channel').val();
   initClientAndJoinChannel(agoraAppId, channelName);
   $("#modalForm").modal("hide");
