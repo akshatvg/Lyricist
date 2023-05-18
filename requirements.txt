@@ -13,7 +13,7 @@ websockets==10.0
 uvloop==0.14.0
 fastapi==0.65.2 
 pydantic==1.6.2 
-starlette==0.13.6
+starlette==0.27.0
 python-multipart==0.0.5
 chardet==3.0.4 
 idna==2.10 
