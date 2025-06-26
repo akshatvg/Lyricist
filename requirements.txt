@@ -18,7 +18,7 @@ python-multipart==0.0.5
 chardet==3.0.4 
 idna==2.10 
 requests==2.24.0 
-urllib3==1.26.5
+urllib3==2.5.0
 selenium~=3.141.0
 
 numba>=0.49.0 # not directly required, pinned by Snyk to avoid a vulnerability
